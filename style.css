@@ -1,0 +1,109 @@
+body{
+    background-size: cover;
+}
+
+.heading_1{
+    font-family: 'Ruslan Display', cursive;
+    font-size: 40px;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 5px;
+    background-color: royalblue;
+    margin-top: 0px;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.heading_2{
+    font-family: 'Geo', sans-serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+    background-color: darkgreen;
+    text-decoration: none;
+}
+
+.div_speed img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.div_speed{
+    float: left;
+}
+
+.speed{
+    font-size: 28px;
+    color: white;
+    margin: 15px;
+    font-family: 'Geo', sans-serif;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+}
+
+.div_volume img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+.div_volume{
+    float: right;
+}
+
+.volume{
+    font-size: 28px;
+    color: white;
+    margin: 15px;
+    font-family: 'Geo', sans-serif;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    background-color: gray;
+    bottom: 0;
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Vibur', cursive;
+    font-size: 23px;
+  }
+
+  .hi{
+    width: 80px;
+    height: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px white;
+    margin-left: 10px;
+  }
+
+  .play_but{
+    font-family: 'Geo', sans-serif;
+    font-size: 28px;
+    border-radius: 10px;
+    background-color: darkmagenta;
+    box-shadow: 5px 5px 5px white;
+    color: white;
+  }
+
+  .stop_but{
+    font-family: 'Geo', sans-serif;
+    font-size: 28px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    background-color: darkmagenta;
+    color: white;
+  }
+
+  canvas{
+      border: 15px ridge white;
+      border-radius: 10px;
+      width: 350px;
+      height: 350px;
+      margin-top: 200px;
+  }
